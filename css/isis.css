@@ -1,0 +1,54 @@
+.color1 {
+  color: white !important;
+}
+
+.color2 {
+  color: #ca9327;
+}
+
+.nav-link:hover {
+  color: #ca9327 !important;
+}
+
+.espacio{
+  height: 40px;
+}
+
+.pros{
+  background-color: rgba(245,243,240,0.9);
+}
+
+#menu {
+  background-color: black !important;
+}
+
+#menu img {
+  width: 150PX;
+}
+
+#banner .carousel-inner img {
+  max-height: 95vh;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 60%;
+}
+
+#origen img{
+  max-height: 95vh;
+}

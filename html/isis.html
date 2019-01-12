@@ -7,11 +7,183 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/isis.css">
-    <title>Checkpoint</title>
+    <link rel="stylesheet" href="../css/isis.css">
+    <title>Checkpoint 1</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Menu -->
+    <nav  id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="..\imgs\logo.png" alt="Logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link color1" href="#origen">ORIGEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color1" href="#cerveza_artesanal">CERVEZA ARTESANAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color1" href="#acapulco">ACAPULCO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color1" href="#nuestro_nombre">NUESTRO NOMBRE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color1" href="#caracteristicas">CARACTERÍSTICAS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/Menu -->
+
+    <!-- Banner -->
+    <main id="banner">
+      <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="..\imgs\banner.jpg" alt="Quebrada Acapulco">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-center">
+                <div class="col-md-12 mt-4 pt-4">
+                  <img class="offset-md-5"src="..\imgs\imglogo.png" alt="Logo">
+                </div>
+              <div class="row align-items-end">
+                <div class="col-md-8 offset-md-4 text-center">
+                  <h1 class="color1">CERVEZA</h1>
+                  <p class="d-none d-md-block color1">
+                     Nuestra misión es impulsar la cultura cervecera en México
+                     y llevar como emblema el puerto más hermoso del mundo:
+                     <strong>Acapulco</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /Banner -->
+
+    <!-- Origen -->
+    <div id="origen" class="row ">
+        <div class="card text-black">
+          <img src="..\imgs\ORIGEN.jpg" class="card-img" alt="Botella de Cerveza">
+          <div class="card-img-overlay col-md-5 offset-md-6">
+            <div class="row espacio"></div>
+            <div class="row">
+              <div class="col">
+                <h3 class="card-title">CERVEZA ARTESANAL</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h1 class="card-title color2">ESCÉNICA</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h4 class="card-text font-weight-bold">ORGULLOSAMENTE MEXICANA</h4>
+              </div>
+            </div>
+            <div class="row espacio"></div>
+            <div class="row">
+              <div class="col">
+                <p class="card-text">Especializada y dedicada a la producción de cerveza artesanal en el puerto
+                   de Acapulco. Nuestro más grande motor es el amor que le tenemos a nuestro puerto y la pasión
+                   por la cerveza.
+                 </p>
+                <p class="card-text">Todo comenzó cuando 2 apasionados de la cerveza tuvieron la idea de elaborar
+                   una cerveza diferente a las industriales;
+                   <strong>
+                     una cerveza con mayor cuerpo, sabor, aroma y calidad
+                   </strong>
+                   en cada detalle de su proceso y su imagen para representar el puerto de Acapulco.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Origen -->
+
+    <!-- Cerveza artesanal -->
+    <div id="cerveza_artesanal" class="row">
+      <div class="card text-black">
+        <img src="..\imgs\CERVEZA-ARTESANAL.jpg" class="card-img" alt="Madera oscura">
+          <div class="card-img-overlay">
+            <div class="row">
+              <div class="col">
+                <div class="row espacio"></div>
+              </div>
+            </div>
+            <div class="row container-fluid">
+              <div class="col-12 text-center">
+                <h3 class="card-title color2">¿POR QUÉ UNA</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <h1 class="card-title color1">CERVEZA ARTESANAL?</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="row espacio"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="container">
+                <div class="card-group">
+                  <div class="card pros">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">ES INDEPENDIENTE</h5>
+                      <p class="card-text">No pertenece a ningún grupo mayoritario.</p>
+                    </div>
+                  </div>
+                  <div class="card pros">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">ES TRADICIONAL</h5>
+                      <p class="card-text">Es una cerveza 100% de malta y sólo utiliza 4 ingredientes en su
+                         elaboración: malta, lúpulo, levadura y agua.</p>
+                    </div>
+                  </div>
+                  <div class="card pros">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">ES PEQUEÑA</h5>
+                      <p class="card-text">Produce menos de 5 millones de hectolitros al año.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- /Cerveza artesanal -->
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
