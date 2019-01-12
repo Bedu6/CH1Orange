@@ -49,7 +49,7 @@ $colorUno: #ea7852;
 	position: relative;
 }
 
-#carousel .overlay {
+/*#carousel .overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -62,7 +62,7 @@ $colorUno: #ea7852;
 #carousel .overlay .container, 
 #carousel .overlay .row {
 	height: 100%
-}
+}*/
 
 .list-item {
 	list-style-image: url('https://img.icons8.com/ios/16/000000/checkmark-filled.png');
@@ -72,7 +72,7 @@ $colorUno: #ea7852;
 }
 
 #testimonies-title {
-	background-color: #ea7852;
+	background-color: $colorUno;
 	margin-bottom: 0;
 	margin-top: 0;
 	margin-right: 0;
@@ -118,7 +118,7 @@ $colorUno: #ea7852;
 }
 
 #mailing-list-title {
-	background-color: #ea7852;
+	background-color: $colorUno;
 	margin-bottom: 0;
 	margin-top: 0;
 	margin-right: 0;
@@ -149,8 +149,7 @@ $colorUno: #ea7852;
 }
 
 #footer {
-	background: linear-gradient(90deg, #e34e1c, #ea7852 25%, #ee9577);
-	/*background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);*/
+	background: linear-gradient(90deg, #e34e1c, $colorUno 25%, #ee9577);
 }
 
 #footer a {
