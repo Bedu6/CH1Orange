@@ -1,0 +1,133 @@
+body {
+	background-image: url(../img/andrea/dragon2.jpg);
+	background-attachment: fixed;/*para que sea estático*/
+	background-position: top right;/*arriba a la derecha*/
+	background-repeat: no-repeat;/*que no se repita el fondo*/
+	background-size: cover;
+	width: 100%;
+}
+#titulo{
+	width: 100px;
+}
+
+#carrusel div{
+	padding: 0px;
+}
+
+.padding_tb{
+	padding-top: 80px;	
+	padding-bottom: 60px;
+}
+
+#article_descripcion p
+{
+	padding-bottom: 60px;
+	padding-left: 14%;
+	padding-right: 14%;
+}
+
+.check{
+	margin-top: 7%;
+}
+
+form{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.bg-img-registro{
+	background-image: url(../img/andrea/registro/fondo_hp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.btn-dark{
+	margin-top: 20px;
+}
+
+.img_personajes div img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.hp:hover {
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+.gg:hover {
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+.rw:hover {
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+#Descripcion, #Galeria, #Video, #Mapa{
+	background: white;
+}
+
+.img_personajes div h1, .txt-w{
+	color: white;
+}
+
+#Galeria img{
+	padding: 0;
+	height: 300px;
+	cursor: pointer;
+}
+
+	
+
+#Galeria img:hover {
+	filter: opacity(.5);
+}
+
+.gale_titulo{
+	margin-bottom: 60px;
+}
+
+iframe{
+	width: 100%;
+    height: 700px;
+    padding-top: 80px;	
+	padding-bottom: 60px;
+}
+
+footer{
+	background: black;
+	padding: 25px;
+}
+
+.snitch_img{
+	    width: 73%;
+}
+
+.footer_inf{
+	color: white;
+}
+
+.pad_fot div{
+	margin-bottom: 30px;
+}
+
+.red_social{
+	width: 40px;
+	cursor: pointer;
+}
+
+#navbarNav{
+	margin-left: 5%;
+}
