@@ -25,6 +25,41 @@
   border-top-right-radius: 500px;
 }
 
+.alto{
+  height: 175px;
+}
+
+.carcontact, .form-control{
+  background-color: rgba(0, 0, 0,.35);
+  border-color: grey;
+}
+
+.btn,
+.carcontact:hover,
+.carcontact:hover h5{
+  border-color: #ca9327;
+  color: #ca9327;
+}
+
+.btn:hover{
+  background-color: #ca9327;
+  color: white;
+}
+
+.btn{
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+
+#footer a{
+  color: white;
+}
+
+#footer{
+  background-color: black;
+}
 #menu {
   background-color: black !important;
 }
