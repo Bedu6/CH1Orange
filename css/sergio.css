@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  font-family: "ITC Century W01 Book",Georgia,serif;
+  font-weight: 100;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #1C1F21;
+  font-size: 1.875rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* INICIA HEADER (LOGO, NAV, SOCIAL */
+.contenedor-menu{
+  width: 100%;
+}
+.logo, .menu, .social{
+  border-bottom: 1px solid grey;
+}
+.contenedor-item-menu{
+  justify-content: center;
+  text-decoration: none;
+}
+.menu-item{
+  margin: 25px;
+  padding: 5px;
+  font-size: 15px;
+
+}
+.logo{
+  flex: 2 1 auto;
+}
+.menu{
+  flex: 5 1 auto;
+}
+.social{
+  flex: 2 1 auto;
+}
+/* TERMINA HEADER (LOGO, NAV, SOCIAL */
+
+/* INICIA HERO */
+/* .video {
+  position: absolute;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+} */
+ .contenedor-hero{
+  background: rgb(75, 65, 65);
+  padding: 20px;
+  height: 600px;
+}
+.titulo-hero{
+  text-align: center;
+  color: #92683C;
+
+}
+
+.contenedor-imagen{
+  justify-content: center;
+}
+.contenedor-parrafo-hero{
+  justify-content: center;
+}
+.parrafo-hero{
+  width: 40%;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 62.5%;
+  margin: 3px;
+}
+.imagen-hero-inferior{
+  justify-content: center;
+}
+/* TERMINA HERO */
+
+/* INICIA SECCION SERVICES */
+h4{
+  text-align: center;
+  font-size: 20px;
+  color: goldenrod;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  margin: 5px;
+}
+hr{
+  width: 100%;
+}
+.contenedor-padre-serv{
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  block-size: inherit;
+}
+.columna-art{
+  width: 30%;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.imagen-articulo{
+  height: 231px;
+  width: 314px;
+  border-bottom: 4px solid goldenrod;
+}
+.cont-padre-pservicios{
+  border: 1px solid black;
+  height: 100px;
+  width: 70%;
+  justify-items: auto;
+}
+.columna-logo-pservicios{
+  border: 1px solid black;
+  flex: 1 1 auto;
+}
+.columna-titulo-pservicios{
+  border: 1px solid black;
+  flex: 9 1 auto;
+}
+/* TERMINA SECCION SERVICES */
+
+/* INICIA SECCION SHORT STORIES */
+.seccion-short-stories{
+  background: #1C1F21;
+  width: 100%;
+  height: 850px;
+  align-content: center;
+}
+.contenedor-short-stories{
+  width: auto;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.contenido-short-stories{
+  color: white;
+  width: 45%;
+  font-size: 25px;
+  margin-bottom: 50px;
+
+}
+.btn-short-stories{
+  margin-bottom: 70px;
+  width: 210px;
+  height: 70px;
+  background: #1C1F21;
+  border: 2px solid #92683C;
+  color: white;
+}
+.pie-short-stories{
+  width: 97%;
+}
+/* TERMINA SECCION SHORT STORIES */
+
+/* INICIA SECCION HIRE US */
+.contenedor-hire-us{
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+.titulo-hire-us{
+  width: 100%;
+  margin: 20px;
+}
+.slider-hire-us{
+  margin: 150px;
+}
+.parrafo-hire-us{
+  margin: 100px;
+}
+.contenedor-clientes{
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
+
+}
+/* TERMINA SECCION HIRE US */
+
+
+/* INICIA SECCION SHOP */
+.contenedor-shop{
+  flex-direction: column;
+  justify-content: center;
+  background: #1C1F21;
+  align-items: center;
+}
+.calavera-shop{
+  width: 22%;
+  position: relative;
+
+}
+.parrafo-shop{
+  color: #92683C;
+  margin: 30px;
+}
+
+.titulo-shop{
+  color: white;
+  margin: 10px;
+}
+
+
+.btn-shop{
+  margin-bottom: 70px;
+  width: 210px;
+  height: 70px;
+  background: #1C1F21;
+  border: 2px solid #92683C;
+  color: white;
+}
+
+
+.columnas-shop{
+  width: 33%;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.titulo-columna-shop{
+  color: white;
+  margin: 10px;
+}
+.parrafo-columna-shop{
+  color: #92683C;
+  margin-bottom: 100px;
+}
+
+
+/* TERMINA SECCION SHOP */
+
+
+/* INICIA FOOTER */
+.footer{
+  width: 100%;
+}
+.parrafo-footer{
+  background: #161819;
+  color: #575D60;
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* TERMINA FOOTER */
+
