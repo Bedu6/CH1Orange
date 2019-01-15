@@ -2,18 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* body{
-  font-family: "ITC Century W01 Book",Georgia,serif;
-  font-weight: 100;
-  line-height: 1.5em;
-  text-rendering: optimizeLegibility;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  color: #1C1F21;
-  font-size: 1.875rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
 .flex{
   display: flex;
   flex-wrap: wrap;
@@ -32,11 +20,21 @@
   text-decoration: none;
 }
 .menu-item{
-  margin: 25px;
+  margin: 30px;
   padding: 5px;
   font-size: 15px;
-
+  text-decoration: none;
+  text
 }
+
+.menu-menu{
+  color: #1C1F21;
+  text-decoration: none;
+}
+.menu-menu:hover{
+  color: #92683C;
+}
+
 .logo{
   flex: 2 1 auto;
 }
@@ -77,13 +75,17 @@
 .contenedor-parrafo-hero{
   justify-content: center;
 }
+.imagen-hero-superior{
+  width: 70%;
+}
 .parrafo-hero{
   width: 40%;
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 62.5%;
+  font-size: 30px;
   margin: 3px;
+  padding: 20px;
 }
 .imagen-hero-inferior{
   justify-content: center;
@@ -105,15 +107,24 @@ h1{
 hr{
   width: 100%;
 }
-.contenedor-padre-serv{
+/* .contenedor-padre-serv{
   width: 80%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   block-size: inherit;
+} */
+.contenedor-art-servicios{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  block-size: inherit;
+
+
 }
 .columna-art{
-  width: 30%;
+  width: 25%;
   font-size: 20px;
   margin: 5px;
   padding: 5px;
@@ -167,6 +178,9 @@ hr{
   background: #1C1F21;
   border: 2px solid #92683C;
   color: white;
+}
+.btn-short-stories:hover{
+  background: #92683C;
 }
 .pie-short-stories{
   width: 97%;
@@ -231,7 +245,9 @@ hr{
   border: 2px solid #92683C;
   color: white;
 }
-
+.btn-shop:hover{
+  background: #92683C;
+}
 
 .columnas-shop{
   width: 33%;
