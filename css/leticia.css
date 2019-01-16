@@ -37,20 +37,6 @@
 #carousel {
   position: relative; }
 
-/*#carousel .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-}
-
-#carousel .overlay .container, 
-#carousel .overlay .row {
-	height: 100%
-}*/
 .list-item {
   list-style-image: url("https://img.icons8.com/ios/16/000000/checkmark-filled.png");
   list-style-position: outside;
