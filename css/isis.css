@@ -16,6 +16,7 @@
 
 .pros{
   background-color: rgba(245,243,240,0.9);
+  margin: 15px;
 }
 
 .car{
@@ -95,6 +96,39 @@
   max-height: 100vh;
   object-fit: cover;
 }
+
+#origen{
+  background: url('../imgs/ORIGEN.jpg');
+}
+
+#cerveza_artesanal{
+  background: url("../imgs/CERVEZA-ARTESANAL.jpg");
+}
+
+#nuestro_nombre{
+  background: url('../imgs/NUESTRO-NOMBRE.jpg')
+}
+
+#caracteristicas{
+  background: url('../imgs/CERVEZA-ARTESANAL.jpg');
+}
+
+#contacto{
+  background: url('../imgs/CONTACTO.jpg');
+}
+
+#formulario{
+  background: url('../imgs/MENSAJE.jpg');
+}
+
+.fnd{
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 #acapulco img{
   max-height: 70vh;

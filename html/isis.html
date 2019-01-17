@@ -17,6 +17,9 @@
         <a class="navbar-brand" href="#">
           <img src="..\imgs\logo.png" alt="Logo">
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -42,7 +45,6 @@
       </div>
     </nav>
     <!--/Menu -->
-
     <!-- Banner -->
     <main id="banner">
       <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
@@ -50,23 +52,28 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="..\imgs\banner.jpg" alt="Quebrada Acapulco">
           </div>
-          <div class="overlay">
-            <div class="container">
-              <div class="row align-center">
-                <div class="col-md-12 mt-4 pt-4">
-                  <img class="offset-md-5"src="..\imgs\imglogo.png" alt="Logo">
+          <div class="">
+            <div class="container mt-2">
+              <div class="row d-none d-sm-block">
+                <div class="col">
+                  <img class="mx-auto d-block" src="..\imgs\imglogo.png" alt="Logo">
                 </div>
-              <div class="row align-items-end">
-                <div class="col-md-8 offset-md-4 text-center">
-                  <h1 class="color1">CERVEZA</h1>
-                  <p class="d-none d-md-block color1">
+              </div>
+              <div class="row d-block d-sm-none">
+                <div class="col">
+                  <img class="mx-auto d-block" src="..\imgs\imglogosm.png" alt="Logo">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+                  <h1 class="color1 d-none d-md-block">CERVEZA ESCÉNICA</h1>
+                  <p class="color1 d-none d-md-block">
                      Nuestra misión es impulsar la cultura cervecera en México
                      y llevar como emblema el puerto más hermoso del mundo:
                      <strong>Acapulco</strong>
                   </p>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -74,15 +81,10 @@
     <!-- /Banner -->
 
     <!-- Origen -->
-    <div id="origen" class="row ">
-        <div class="col border-0">
-          <img src="..\imgs\ORIGEN.jpg" class="card-img" alt="Botella de Cerveza">
-          <div class="card-img-overlay col-md-5 offset-md-6">
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
-              </div>
-            </div>
+    <div id="origen" class="row fnd">
+      <div class="col">
+        <div class="container">
+          <div class="col-10 offset-2 col-md-8 offset-md-4 col-lg-7 offset-lg-5 mt-4">
             <div class="row">
               <div class="col">
                 <h3>CERVEZA ARTESANAL</h3>
@@ -100,9 +102,10 @@
             </div>
             <div class="row">
               <div class="col">
-                <div class="row espacio"></div>
+                <div class="espacio"></div>
               </div>
-            </div>            <div class="row">
+            </div>
+            <div class="row">
               <div class="col">
                 <p>Especializada y dedicada a la producción de cerveza artesanal en el puerto
                    de Acapulco. Nuestro más grande motor es el amor que le tenemos a nuestro puerto y la pasión
@@ -121,58 +124,55 @@
         </div>
       </div>
     </div>
-    <!-- /Origen -->
-
+    <!-- /Origen-->
     <!-- Cerveza artesanal -->
-    <div id="cerveza_artesanal" class="row">
-      <div class="card border-0">
-        <img src="..\imgs\CERVEZA-ARTESANAL.jpg" class="card-img" alt="Madera oscura">
-          <div class="card-img-overlay">
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
+    <div id="cerveza_artesanal" class="row fnd">
+      <div class="container border-0">
+        <div class="row">
+          <div class="col">
+            <div class="row espacio"></div>
+          </div>
+        </div>
+          <div class="row container-fluid">
+            <div class="col-12 text-center">
+              <h3 class="card-title color2">¿POR QUÉ UNA</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class="card-title color1">CERVEZA ARTESANAL?</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="row espacio"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="card pros">
+                <img src="..\imgs\independiente.png" class="mx-auto d-block mt-4" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title color2">INDEPENDIENTE</h5>
+                  <p class="card-text">No pertenece a ningún grupo mayoritario.</p>
+                </div>
               </div>
             </div>
-            <div class="row container-fluid">
-              <div class="col-12 text-center">
-                <h3 class="card-title color2">¿POR QUÉ UNA</h3>
+            <div class="col-12 col-md-4">
+              <div class="card pros">
+                <img src="..\imgs\tradicional.png" class="mx-auto d-block mt-4" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title color2">TRADICIONAL</h5>
+                  <p class="card-text">100% de malta + lúpulo, levadura y agua.</p>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <h1 class="card-title color1">CERVEZA ARTESANAL?</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="container">
-                <div class="card-group">
-                  <div class="card pros">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">ES INDEPENDIENTE</h5>
-                      <p class="card-text">No pertenece a ningún grupo mayoritario.</p>
-                    </div>
-                  </div>
-                  <div class="card pros">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">ES TRADICIONAL</h5>
-                      <p class="card-text">Es una cerveza 100% de malta y sólo utiliza 4 ingredientes en su
-                         elaboración: malta, lúpulo, levadura y agua.</p>
-                    </div>
-                  </div>
-                  <div class="card pros">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">ES PEQUEÑA</h5>
-                      <p class="card-text">Produce menos de 5 millones de hectolitros al año.</p>
-                    </div>
-                  </div>
+            <div class="col-12 col-md-4">
+              <div class="card pros">
+                <img src="..\imgs\peque.png" class="mx-auto d-block mt-4" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title color2">PEQUEÑA</h5>
+                  <p class="card-text">Produce menos de 5 millones de hectolitros al año.</p>
                 </div>
               </div>
             </div>
@@ -180,7 +180,6 @@
         </div>
       </div>
     <!-- /Cerveza artesanal -->
-
     <!-- Acapulco -->
     <div id="acapulco" class="row ">
       <div class="col-7 border-0">
@@ -222,12 +221,11 @@
       </div>
     </div>
     <!-- /Acapulco -->
-
     <!-- Nuestro nombre -->
-    <div id="nuestro_nombre" class="row">
-        <div class="col align-items-center border-0">
-          <img src="..\imgs\NUSETRO-NOMBRE.jpg" class="card-img" alt="Botella de Cerveza">
-          <div class="card-img-overlay col-md-5 offset-md-1">
+    <div id="nuestro_nombre" class="row fnd">
+      <div class="col">
+        <div class="container">
+          <div class="col-12 col-lg-8 mt-4">
             <div class="row">
               <div class="col">
                 <div class="row espacio"></div>
@@ -266,82 +264,74 @@
         </div>
       </div>
     </div>
-    <!-- /Nuestro nombre -->
-
-    <!-- caracteristicas -->
-    <div id="caracteristicas" class="row">
-      <div class="card text-black border-0">
-        <img src="..\imgs\CERVEZA-ARTESANAL.jpg" class="card-img" alt="Madera oscura">
-          <div class="card-img-overlay">
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
+    <!-- /Nuestro nombre-->
+    <!-- Caracerísticas -->
+    <div id="caracteristicas" class="row fnd">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="row espacio"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h5 class="card-title color2">CERVEZA ESCÉNICA</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="card-title color1">CARACTERÍSTICAS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row espacio"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 m-4 m-md-0 mb-4">
+            <div class="card car">
+              <img src="..\imgs\PERFIL.png" class="mx-auto d-block mt-4" alt="...">
+              <div class="card-body text-center color1">
+                <h5 class="card-title">PERFIL AROMÁTICO</h5>
+                <p class="card-text">
+                  Proveniente de la malta base utilizada en su elaboración, con notas dulces y un sabor amargo
+                  queda en lo profundo de la garganta con un final seco y corto.
+                </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <h5 class="card-title color2">CERVEZA ESCÉNICA</h5>
+          </div>
+          <div class="col-md-4 m-4 m-md-0 mb-md-4">
+            <div class="card car">
+              <img src="..\imgs\color.png" class="mx-auto d-block mt-4" alt="...">
+              <div class="card-body text-center color1">
+                <h5 class="card-title">COLOR DORADO</h5>
+                <p class="card-text">
+                  También el color es característico, ofrece un dorado brillante, filtrado y burbujeante, con una
+                  espuma que debe permanecer blanquecina y compacta.
+                </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <h1 class="card-title color1">CARACTERÍSTICAS</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
-              </div>
-            </div>
-            <div class="row offset-md-2">
-              <div class="col-md-3 mr-3">
-                <div class="card car">
-                  <img src="..\imgs\PERFIL.png" class="mx-auto d-block mt-4" alt="...">
-                  <div class="card-body text-center color1">
-                    <h5 class="card-title">PERFIL AROMÁTICO</h5>
-                    <p class="card-text">
-                      Proveniente de la malta base utilizada en su elaboración, con notas dulces y un sabor amargo
-                      queda en lo profundo de la garganta con un final seco y corto.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mr-3">
-                <div class="card car">
-                  <img src="..\imgs\color.png" class="mx-auto d-block mt-4" alt="...">
-                  <div class="card-body text-center color1">
-                    <h5 class="card-title">COLOR DORADO</h5>
-                    <p class="card-text">
-                      También el color es característico, ofrece un dorado brillante, filtrado y burbujeante, con una
-                      espuma que debe permanecer blanquecina y compacta.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mr-3">
-                <div class="card car">
-                  <img src="..\imgs\ESCENICA_F-02.png" class="mx-auto d-block mt-4" alt="...">
-                  <div class="card-body text-center color1">
-                    <h5 class="card-title">PARA MARIDAR</h5>
-                    <p class="card-text">
-                      Es la compañera perfecta en botanas como quesos de cabra frescos, manchego y gouda frescos, comidas
-                      fritas, pastas, y carnes blancas, aves, pescados y mariscos.
-                    </p>
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div class="col-md-4 m-4 m-md-0 mb-4">
+            <div class="card car">
+              <img src="..\imgs\ESCENICA_F-02.png" class="mx-auto d-block mt-4" alt="...">
+              <div class="card-body text-center color1">
+                <h5 class="card-title">PARA MARIDAR</h5>
+                <p class="card-text">
+                  Es la compañera perfecta en botanas como quesos de cabra frescos, manchego y gouda frescos, comidas
+                  fritas, pastas, y carnes blancas, aves, pescados y mariscos.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    <!-- /caracteristicas -->
-
+    </div>
+    <!-- /Caracerísticas-->
     <!-- Datos de contacto -->
-    <div id="contacto" class="row">
-      <div class="card text-black border-0">
-        <img src="..\imgs\CONTACTO.jpg" class="card-img" alt="Madera oscura">
-          <div class="card-img-overlay">
+    <div id="contacto" class="row fnd">
+      <div class="container mb-4">
             <div class="row">
               <div class="col">
                 <div class="row espacio"></div>
@@ -362,37 +352,36 @@
                 <div class="row espacio"></div>
               </div>
             </div>
-            <div class="row offset-md-2">
-              <div class="col-md-3 mr-3">
+            <div class="row">
+              <div class="col-md-4 m-4 m-sm-0 mb-sm-4">
                 <div class="card carcontact">
                   <img src="..\imgs\PERFIL.png" class="mx-auto d-block mt-4" alt="...">
                   <div class="card-body text-center color1 alto">
                     <h5 class="card-title">DIRECCIÓN</h5>
                     <p class="card-text">
-                      Av. Universidad #12, interior 5, fraccionamiento Magallanes, C.P 39670,
-                      Acapulco, Guerrero, México.
+                      Avenida Lopéz Mateos Sur 2077-Z, 44510 Guadalajara, Jalisco
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 mr-3">
+              <div class="col-md-4 m-4 m-sm-0 mb-sm-4">
                 <div class="card carcontact">
                   <img src="..\imgs\color.png" class="mx-auto d-block mt-4" alt="...">
                   <div class="card-body text-center color1 alto">
                     <h5 class="card-title">TELÉFONO</h5>
                     <p class="card-text">
-                      74 4485 2547
+                      01 2345 6789
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 mr-3">
+              <div class="col-md-4 m-4 m-sm-0 mb-sm-4">
                 <div class="card carcontact">
                   <img src="..\imgs\ESCENICA_F-02.png" class="mx-auto d-block mt-4" alt="...">
                   <div class="card-body text-center color1 alto">
                     <h5 class="card-title">CORREO</h5>
                     <p class="card-text">
-                      ventas@cervezaescenica.com
+                      correo@correo.com
                     </p>
                   </div>
                 </div>
@@ -403,43 +392,35 @@
         </div>
       </div>
     <!-- /Datos de contacto -->
-
     <!-- Formulario -->
-    <div id="formulario" class="row">
-      <div class="card border-0">
-        <img src="..\imgs\MENSAJE.jpg" class="card-img" alt="Madera oscura">
-          <div class="card-img-overlay">
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
-              </div>
+    <div id="formulario" class="row fnd">
+      <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="row espacio"></div>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <h5 class="card-title color2">ENVÍA UN</h5>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <h5 class="card-title color2">ENVÍA UN</h5>
             </div>
-            <div class="row">
-              <div class="col-12 text-center">
-                <h1 class="card-title color1">MENSAJE</h1>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class="card-title color1">MENSAJE</h1>
             </div>
-            <div class="row">
-              <div class="col">
-                <div class="row espacio"></div>
-              </div>
-            </div>
-            <div class="row">
-            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
-              <form>
-                <div class="form-row">
-                  <div class="form-group col-12 col-md-4">
-                    <input type="text" class="form-control" placeholder="Nombre*">
-                  </div>
-                  <div class="form-group col-12 col-md-4">
-                    <input type="text" class="form-control" placeholder="Correo electrónico*">
-                  </div>
-                  <div class="form-group col-12 col-md-4">
+          </div>
+          <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <form class="m-4">
+              <div class="form-row">
+                <div class="form-group col-12 col-md-4">
+                  <input type="text" class="form-control" placeholder="Nombre*">
+                </div>
+                <div class="form-group col-12 col-md-4">
+                  <input type="text" class="form-control" placeholder="Correo electrónico*">
+                </div>
+                <div class="form-group col-12 col-md-4">
                     <input type="text" class="form-control" placeholder="Teléfono">
                   </div>
                 </div>
@@ -448,7 +429,7 @@
                     <textarea rows="7"name="text" class="form-control form-control-lg" placeholder="Mensaje*"></textarea>
                   </div>
                 </div>
-                <div class="form-row">
+                <div class="form-row mb-4">
                   <div class="col">
                     <button type="button" class="btn btn-block">ENVIAR</button>
                   </div>
@@ -456,11 +437,9 @@
               </form>
             </div>
           </div>
-          </div>
+        </div>
       </div>
-    </div>
     <!-- /Formulario -->
-
     <!-- Footer -->
     <footer id="footer" class="pb-2 pt-2">
       <div class="container">
@@ -478,15 +457,6 @@
       </div>
     </footer>
     <!-- /Footer -->
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
