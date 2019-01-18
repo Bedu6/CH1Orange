@@ -27,17 +27,17 @@
 }
 
 .alto{
-  height: 175px;
+  height: 150 px;
 }
 
-.carcontact, .form-control{
+.d_contacto, .form-control{
   background-color: rgba(0, 0, 0,.35);
   border-color: grey;
 }
 
 .btn,
-.carcontact:hover,
-.carcontact:hover h5{
+.d_contacto:hover,
+.d_contacto:hover h5{
   border-color: #ca9327;
   color: #ca9327;
 }
@@ -54,12 +54,12 @@
   border-bottom-right-radius: 500px;
 }
 
-#footer a{
-  color: white;
-}
+.fnd{
+  min-height: 500px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 
-#footer{
-  background-color: black;
 }
 #menu {
   background-color: black !important;
@@ -121,22 +121,20 @@
   background: url('../imgs/MENSAJE.jpg');
 }
 
-.fnd{
-  min-height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-
 #acapulco img{
-  max-height: 70vh;
-  object-fit: cover;
+  max-width: 100%;
 }
 
 #nuestro_nombre img{
   max-height: 80vh;
   object-fit: cover;
   filter: grayscale(17%);
+}
+
+#footer a{
+  color: white;
+}
+
+#footer{
+  background-color: black;
 }
