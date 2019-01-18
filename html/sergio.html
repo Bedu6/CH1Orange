@@ -13,13 +13,12 @@
   <section class="contenedor-menu flex">
     <div class="logo"><img src="../img/img-sergio/logo.png" alt="logo pagina"></div>
     <nav class="menu">
-      <ul class="contenedor-item-menu flex">
-        <li class="menu-item"><a class="menu-menu" href="#work">WORK</a></li>
-        <li class="menu-item"><a class="menu-menu" href="#services">SERVICES</a></li>
-        <li class="menu-item"><a class="menu-menu" href="#short">SHORT HISTORIES</a></li>
-        <li class="menu-item"><a class="menu-menu" href="#hire">HIRE US</a></li>
-        <li class="menu-item"><a class="menu-menu" href="#shop">SHOP</a></li>
-      </ul>
+      <button class="nav-boton" onclick="accion()"><img src="../img/img-sergio/menu.svg" alt=""></button>
+      <a href="#work" class="nav-enlace desaparece">WORK</a>
+      <a href="#services" class="nav-enlace desaparece">SERVICES</a>
+      <a href="#short" class="nav-enlace desaparece">SHORT HISTORIES</a>
+      <a href="#hire" class="nav-enlace desaparece">HISE US</a>
+      <a href="#shop" class="nav-enlace desaparece">SHOP</a>
     </nav>
     <div class="social">
       <img src="../img/img-sergio/iconos-social.png" alt="iconos redes sociales">
@@ -145,10 +144,21 @@
 
   <!-- Footer -->
 
-  <div class="footer">
+    <div class="footer">
     <div>
       <p class="parrafo-footer">FOREFATHERS GROUP™ © 2019 ALL RIGHTS RESERVED.</p>
     </div>
   </div>
+
+  <!-- javascript -->
+
+  <script>
+    function accion(){
+      var ancla = document.getElementsByClassName('nav-enlace');
+      for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle('desaparece');
+      }
+    }
+  </script>
 </body>
 </html>
