@@ -1,0 +1,146 @@
+$colorUno: #ea7852;
+
+
+
+.text-wtd {
+	color: $colorUno !important;
+}
+
+.btn-wtd {
+	background-color: $colorUno;
+	color: white;
+	text-align: center;
+}
+
+.btn-wtd:hover {
+	background-color: #9f3614;
+	color: white;
+}
+
+.name-org {
+	font-size: 50px;
+	font-family: 'Bree Serif', serif;
+	color:#fff;
+	font-weight: normal;
+	background-color: #262626;
+	text-transform: uppercase;
+	text-align: right;
+	letter-spacing: 3px;
+	padding: 8px;
+}
+
+.text-city{
+	color: $colorUno;
+    font-size: 32px;
+}
+
+#header img {
+	width: 70px;
+	height: 70px;
+}
+
+#main .carousel-inner img {
+	max-height: 140vh;
+	object-fit: cover;
+	filter: grayscale(20%);
+}
+
+#carousel {
+	position: relative;
+}
+
+.list-item {
+	list-style-image: url('https://img.icons8.com/ios/16/000000/checkmark-filled.png');
+	list-style-position: outside;
+	text-align: left;
+  	color: #ea7852;
+}
+
+#testimonies-title {
+	background-color: $colorUno;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#place-time {
+	background-color: #343a40;
+	color: white;
+}
+
+#place-time img {
+	max-width: 100%;
+}
+
+#schedule{
+	background-color: #f2f2f2;
+	padding-top: 40px;
+}
+
+#schedule h1{
+	text-align: center;
+	font-size: 2rem;
+}
+
+#schedule h1, h4, h6 {
+	text-align: center;
+}
+
+#schedule p {
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.schedule-image{
+	/*width: 150px;*/
+	height: 150px;
+	align-content: center;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+#mailing-list-title {
+	background-color: $colorUno;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#mailing-list h2 {
+	text-transform:uppercase;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+#mailing-list-link {
+	background-color: #000000;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	color: white;
+	height: 100px;
+	padding-top: 35px;
+}
+
+#mailing-list-link p {
+	padding-left: 100px;
+	text-align: left;
+}
+
+#footer {
+	background: linear-gradient(90deg, #e34e1c, $colorUno 25%, #ee9577);
+}
+
+#footer a {
+	color: white;
+}
+
+
+
+
