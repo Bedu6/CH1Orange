@@ -1,0 +1,140 @@
+.color1 {
+  color: white !important;
+}
+
+.color2 {
+  color: #ca9327;
+}
+
+.nav-link:hover {
+  color: #ca9327 !important;
+}
+
+.espacio{
+  height: 40px;
+}
+
+.pros{
+  background-color: rgba(245,243,240,0.9);
+  margin: 15px;
+}
+
+.car{
+  background-color: transparent;
+  border-color: white;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+}
+
+.alto{
+  height: 150 px;
+}
+
+.d_contacto, .form-control{
+  background-color: rgba(0, 0, 0,.35);
+  border-color: grey;
+}
+
+.btn,
+.d_contacto:hover,
+.d_contacto:hover h5{
+  border-color: #ca9327;
+  color: #ca9327;
+}
+
+.btn:hover{
+  background-color: #ca9327;
+  color: white;
+}
+
+.btn{
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+
+.fnd{
+  min-height: 500px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+}
+#menu {
+  background-color: black !important;
+}
+
+#menu img {
+  width: 150PX;
+}
+
+#banner .carousel-inner img {
+  max-height: 95vh;
+  object-fit: cover;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 60%;
+}
+
+#origen img, #cerveza_artesanal img{
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+#origen{
+  background: url('../imgs/ORIGEN.jpg');
+}
+
+#cerveza_artesanal{
+  background: url("../imgs/CERVEZA-ARTESANAL.jpg");
+}
+
+#nuestro_nombre{
+  background: url('../imgs/NUESTRO-NOMBRE.jpg')
+}
+
+#caracteristicas{
+  background: url('../imgs/CERVEZA-ARTESANAL.jpg');
+}
+
+#contacto{
+  background: url('../imgs/CONTACTO.jpg');
+}
+
+#formulario{
+  background: url('../imgs/MENSAJE.jpg');
+}
+
+#acapulco img{
+  max-width: 100%;
+}
+
+#nuestro_nombre img{
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(17%);
+}
+
+#footer a{
+  color: white;
+}
+
+#footer{
+  background-color: black;
+}
